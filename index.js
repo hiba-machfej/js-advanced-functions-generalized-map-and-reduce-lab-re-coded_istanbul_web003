@@ -29,18 +29,3 @@ function reduce(sourceArray, fn, startingPoint) {
 
 }
 
-
-/*
-
-function reduce(arr, callback, start) {
-    let accumulator = start ? start : arr[0];
-    let i = start ? 0 : 1;
-  
-    for (; i < arr.length; i++) {
-      accumulator = callback(arr[i], accumulator);
-    }
-  
-    return accumulator;
-  }*/
-
-//for(var i = 0; i <sourceArray.length ; i++) {
